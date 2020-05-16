@@ -1,0 +1,28 @@
+div.header
+{
+    height:60px;
+    width:802px;
+    margin:0 auto;
+}
+div.header h3
+{
+    padding:0;
+    float:left;
+    width:165px;
+    height:49px;
+    margin:0 -67px;
+    display:inline;
+    background:url(img/tommaillogo.png) no-repeat;
+}
+div.header span
+{
+    float:right;
+    padding:15px 0px;
+}
+div.header span a
+{
+    margin:0 10px;
+    font-size:12px;
+    color:#333;
+    text-decoration:none;
+}

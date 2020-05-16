@@ -1,0 +1,94 @@
+div.body
+{
+    height:580px;
+    width:800px;
+    box-shadow: 0px 2px 5px #888888;
+    background-color:white;
+    border-radius: 5px;
+    margin:10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.body h2
+{
+    margin:0;
+    padding:0 0 0 20px;
+    height:8px;
+    line-height:38px;
+    font-size:20px;
+    background:url(img/topbg.gif) no-repeat;
+    color:#fff;
+}
+.fieldset
+{
+    border:none;
+}
+.welcomeregs
+{
+    font-size: 26px;
+    text-align:center;
+    color:#33b915;
+}
+.information
+{
+    width: 3px;
+    height: 18px;
+    background-color:#33b915;
+    position: relative;
+    top: 34px;
+    left: 6px; 
+}
+.regsinformation
+{
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 21px;
+}
+.line
+{
+    width: 452px;
+    height: 1px;
+    background-color: #f5f5f5;
+    position:  relative;
+    top: -25px;left: 125px;
+}
+label
+{
+    display: inline-block;
+    width:100px;
+    text-align:right;
+}
+.usr
+{
+    width:220px;
+    margin:0;
+    padding:2px;
+    height:18px;
+    line-height:18px;
+    border:1px solid #888;
+}
+.spn1
+{
+    font-family:Arial; 
+    margin:0 10px;
+    font-size: 16px;
+}
+.submit
+{
+    width:229px;
+    height:40px;
+    cursor:pointer;
+    background:url(img/topbg.gif) no-repeat;
+    color:#fff;
+    font-size: 16px;
+    margin-left: 60px;
+    border:none;
+}
+.spnmail
+{
+    background-image: url();
+    background-repeat:no-repeat;
+    padding-left:20px;
+    position:relative;
+    right:0px;
+}

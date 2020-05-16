@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <link rel="stylesheet" type="text/css" href="header.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="body.css" media="screen">
+    <script type="text/javascript" src="Tommail.js"></script>
+    <script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+    <title>Tom邮箱用户注册</title>
+</head>
+<body>
+    <div class="header">
+        <a href="http://mail.tom.com" title="TOM邮箱"><h3></h3></a>
+        <span style="font-size:12px; padding-top:25px;"><a target="_blank" href="http://www.tom.com">TOM首页</a> | <a target="_blank" href="//mail.tom.com/webmail-static/help/tomcom/index.html">帮助中心</a></a></span>
+    </div>
+    <div class="body">
+        <h2></h2>
+        <form method="POST">
+            <fieldset class="fieldset">
+                <p class="welcomeregs">欢迎注册TOM邮箱！</p>
+                <div class="information"></div>
+                <p class="regsinformation">填写注册信息</p>
+                <div class="line"></div>
+                <p>
+                    <label>邮箱名</label>
+                    <input type="text" class="usr" id="user">
+                    <span class="spn1">@tom.com</span>
+                    <span class="spnmail" id="spnmail"></span>
+                </p>
+                <p><label>&nbsp;</label><span style="font-size:13px;color:rgba(110, 111, 114, 0.822)">6-18个字符，可用字母、数字、减号、点、下划线、需以字母开头</span></p>
+                <p>
+                    <label>密码</label>
+                    <input type="password" class="usr" id="pasw">
+                    <span class="spnmail" id="spnspw"></span>
+                </p>
+                <p><label>&nbsp;</label><span style="font-size:13px;color:rgba(110, 111, 114, 0.822)">6-18个字符, “字母+数字”的组合，区分大小写</span></p>
+                <p>
+                    <label>确认密码</label>
+                    <input type="password" class="usr" id="pasw2">
+                    <span class="spnmail" id="spnspw2"></span>
+                </p>
+                <p><label>&nbsp;</label><span style="font-size:13px;color:rgba(110, 111, 114, 0.822)">请再次填写密码</span></p>
+                <p>
+                    <label>手机号码</label>
+                    <input type="text" class="usr" id="phone">
+                    <span class="spnmail" id="spnsphone"></span>
+                </p>
+                <p><label>&nbsp;</label><span style="font-size:13px;color:rgba(110, 111, 114, 0.822)">找回密码或认证时使用，请填写真实有效的手机号</span></p>
+            </fieldset>
+            <p><label></label>
+                <button tpye="button" class="submit" id="reg">注册</button>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
